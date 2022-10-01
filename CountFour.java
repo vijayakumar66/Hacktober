@@ -31,7 +31,7 @@ public class CountFour {
 	public static void main(String[] args) {
 		CountFour ob=new CountFour();
 		ob.getInput();
-		
+	
 	}
 
 }
