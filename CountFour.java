@@ -9,6 +9,9 @@ public class CountFour {
 		number=scanner.nextInt();
 		System.out.println("Enter the number to count");
 		n=scanner.nextInt();
+		if(number<0) {//if number negative convert to postive value 
+			number*=-1;
+		}
 		System.out.println(count(number,n));
 		scanner.close();
 	}
